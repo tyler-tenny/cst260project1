@@ -1,0 +1,811 @@
+----------------------------------------------------------------------
+Data values
+----------------------------------------------------------------------
+Data by Sector
+Sector: #6 420 grams iron, 85 milligrams silicon
+Sector: #8 250 grams iron, 88 milligrams silicon
+Sector: #21 24 grams iron, 50 milligrams silicon
+Sector: #22 304 grams iron, 55 milligrams silicon
+Sector: #23 337 grams iron, 15 milligrams silicon
+Sector: #32 381 grams iron, 52 milligrams silicon
+Sector: #33 284 grams iron, 60 milligrams silicon
+Sector: #35 465 grams iron, 52 milligrams silicon
+Sector: #41 9 grams iron, 71 milligrams silicon
+Sector: #48 172 grams iron, 35 milligrams silicon
+Sector: #50 69 grams iron, 41 milligrams silicon
+Sector: #60 428 grams iron, 54 milligrams silicon
+Sector: #66 261 grams iron, 19 milligrams silicon
+Sector: #71 143 grams iron, 39 milligrams silicon
+Sector: #73 91 grams iron, 91 milligrams silicon
+Sector: #76 394 grams iron, 29 milligrams silicon
+Sector: #80 170 grams iron, 44 milligrams silicon
+Sector: #81 238 grams iron, 60 milligrams silicon
+Sector: #84 404 grams iron, 66 milligrams silicon
+Sector: #91 116 grams iron, 47 milligrams silicon
+Sector: #92 225 grams iron, 35 milligrams silicon
+Sector: #107 451 grams iron, 82 milligrams silicon
+Sector: #112 142 grams iron, 7 milligrams silicon
+Sector: #113 339 grams iron, 48 milligrams silicon
+Sector: #118 250 grams iron, 80 milligrams silicon
+Sector: #123 394 grams iron, 60 milligrams silicon
+Sector: #128 273 grams iron, 45 milligrams silicon
+Sector: #144 433 grams iron, 53 milligrams silicon
+Sector: #152 37 grams iron, 54 milligrams silicon
+Sector: #152 498 grams iron, 63 milligrams silicon
+Sector: #158 227 grams iron, 51 milligrams silicon
+Sector: #161 493 grams iron, 59 milligrams silicon
+Sector: #166 448 grams iron, 13 milligrams silicon
+Sector: #167 241 grams iron, 57 milligrams silicon
+Sector: #171 436 grams iron, 30 milligrams silicon
+Sector: #183 236 grams iron, 35 milligrams silicon
+Sector: #186 325 grams iron, 56 milligrams silicon
+Sector: #194 344 grams iron, 52 milligrams silicon
+Sector: #215 14 grams iron, 76 milligrams silicon
+Sector: #218 381 grams iron, 36 milligrams silicon
+Sector: #243 27 grams iron, 51 milligrams silicon
+Sector: #244 324 grams iron, 106 milligrams silicon
+Sector: #250 206 grams iron, 83 milligrams silicon
+Sector: #258 401 grams iron, 46 milligrams silicon
+Sector: #259 22 grams iron, 91 milligrams silicon
+Sector: #260 291 grams iron, 45 milligrams silicon
+Sector: #263 393 grams iron, 78 milligrams silicon
+Sector: #270 107 grams iron, 38 milligrams silicon
+Sector: #274 231 grams iron, 32 milligrams silicon
+Sector: #280 297 grams iron, 46 milligrams silicon
+Sector: #281 137 grams iron, 49 milligrams silicon
+Sector: #281 425 grams iron, 25 milligrams silicon
+Sector: #286 88 grams iron, 26 milligrams silicon
+Sector: #288 391 grams iron, 32 milligrams silicon
+Sector: #288 391 grams iron, 41 milligrams silicon
+Sector: #291 474 grams iron, 36 milligrams silicon
+Sector: #301 130 grams iron, 34 milligrams silicon
+Sector: #304 160 grams iron, 14 milligrams silicon
+Sector: #308 221 grams iron, 42 milligrams silicon
+Sector: #310 398 grams iron, 5 milligrams silicon
+Sector: #317 282 grams iron, 57 milligrams silicon
+Sector: #320 350 grams iron, 49 milligrams silicon
+Sector: #328 64 grams iron, 29 milligrams silicon
+Sector: #336 229 grams iron, 42 milligrams silicon
+Sector: #336 153 grams iron, 24 milligrams silicon
+Sector: #337 74 grams iron, 44 milligrams silicon
+Sector: #362 438 grams iron, 56 milligrams silicon
+Sector: #368 353 grams iron, 42 milligrams silicon
+Sector: #370 40 grams iron, 73 milligrams silicon
+Sector: #375 144 grams iron, 40 milligrams silicon
+Sector: #381 361 grams iron, 51 milligrams silicon
+Sector: #386 472 grams iron, 57 milligrams silicon
+Sector: #394 484 grams iron, 40 milligrams silicon
+Sector: #400 322 grams iron, 61 milligrams silicon
+Sector: #406 377 grams iron, 52 milligrams silicon
+Sector: #415 448 grams iron, 32 milligrams silicon
+Sector: #421 40 grams iron, 61 milligrams silicon
+Sector: #427 189 grams iron, 49 milligrams silicon
+Sector: #432 370 grams iron, 56 milligrams silicon
+Sector: #432 322 grams iron, 93 milligrams silicon
+Sector: #434 130 grams iron, 60 milligrams silicon
+Sector: #434 308 grams iron, 3 milligrams silicon
+Sector: #439 9 grams iron, 36 milligrams silicon
+Sector: #445 348 grams iron, 65 milligrams silicon
+Sector: #446 342 grams iron, 21 milligrams silicon
+Sector: #449 205 grams iron, 95 milligrams silicon
+Sector: #451 37 grams iron, 55 milligrams silicon
+Sector: #455 293 grams iron, 78 milligrams silicon
+Sector: #455 320 grams iron, 72 milligrams silicon
+Sector: #456 390 grams iron, 50 milligrams silicon
+Sector: #457 410 grams iron, 67 milligrams silicon
+Sector: #461 67 grams iron, 55 milligrams silicon
+Sector: #462 213 grams iron, 31 milligrams silicon
+Sector: #470 231 grams iron, 15 milligrams silicon
+Sector: #476 399 grams iron, 53 milligrams silicon
+Sector: #484 189 grams iron, 38 milligrams silicon
+Sector: #490 411 grams iron, 46 milligrams silicon
+Sector: #491 443 grams iron, 72 milligrams silicon
+Sector: #495 73 grams iron, 22 milligrams silicon
+Sector: #498 228 grams iron, 74 milligrams silicon
+Data by Iron Level
+Sector: #41 9 grams iron, 71 milligrams silicon
+Sector: #439 9 grams iron, 36 milligrams silicon
+Sector: #215 14 grams iron, 76 milligrams silicon
+Sector: #259 22 grams iron, 91 milligrams silicon
+Sector: #21 24 grams iron, 50 milligrams silicon
+Sector: #243 27 grams iron, 51 milligrams silicon
+Sector: #451 37 grams iron, 55 milligrams silicon
+Sector: #152 37 grams iron, 54 milligrams silicon
+Sector: #370 40 grams iron, 73 milligrams silicon
+Sector: #421 40 grams iron, 61 milligrams silicon
+Sector: #328 64 grams iron, 29 milligrams silicon
+Sector: #461 67 grams iron, 55 milligrams silicon
+Sector: #50 69 grams iron, 41 milligrams silicon
+Sector: #495 73 grams iron, 22 milligrams silicon
+Sector: #337 74 grams iron, 44 milligrams silicon
+Sector: #286 88 grams iron, 26 milligrams silicon
+Sector: #73 91 grams iron, 91 milligrams silicon
+Sector: #270 107 grams iron, 38 milligrams silicon
+Sector: #91 116 grams iron, 47 milligrams silicon
+Sector: #434 130 grams iron, 60 milligrams silicon
+Sector: #301 130 grams iron, 34 milligrams silicon
+Sector: #281 137 grams iron, 49 milligrams silicon
+Sector: #112 142 grams iron, 7 milligrams silicon
+Sector: #71 143 grams iron, 39 milligrams silicon
+Sector: #375 144 grams iron, 40 milligrams silicon
+Sector: #336 153 grams iron, 24 milligrams silicon
+Sector: #304 160 grams iron, 14 milligrams silicon
+Sector: #80 170 grams iron, 44 milligrams silicon
+Sector: #48 172 grams iron, 35 milligrams silicon
+Sector: #427 189 grams iron, 49 milligrams silicon
+Sector: #484 189 grams iron, 38 milligrams silicon
+Sector: #449 205 grams iron, 95 milligrams silicon
+Sector: #250 206 grams iron, 83 milligrams silicon
+Sector: #462 213 grams iron, 31 milligrams silicon
+Sector: #308 221 grams iron, 42 milligrams silicon
+Sector: #92 225 grams iron, 35 milligrams silicon
+Sector: #158 227 grams iron, 51 milligrams silicon
+Sector: #498 228 grams iron, 74 milligrams silicon
+Sector: #336 229 grams iron, 42 milligrams silicon
+Sector: #274 231 grams iron, 32 milligrams silicon
+Sector: #470 231 grams iron, 15 milligrams silicon
+Sector: #183 236 grams iron, 35 milligrams silicon
+Sector: #81 238 grams iron, 60 milligrams silicon
+Sector: #167 241 grams iron, 57 milligrams silicon
+Sector: #118 250 grams iron, 80 milligrams silicon
+Sector: #8 250 grams iron, 88 milligrams silicon
+Sector: #66 261 grams iron, 19 milligrams silicon
+Sector: #128 273 grams iron, 45 milligrams silicon
+Sector: #317 282 grams iron, 57 milligrams silicon
+Sector: #33 284 grams iron, 60 milligrams silicon
+Sector: #260 291 grams iron, 45 milligrams silicon
+Sector: #455 293 grams iron, 78 milligrams silicon
+Sector: #280 297 grams iron, 46 milligrams silicon
+Sector: #22 304 grams iron, 55 milligrams silicon
+Sector: #434 308 grams iron, 3 milligrams silicon
+Sector: #455 320 grams iron, 72 milligrams silicon
+Sector: #400 322 grams iron, 61 milligrams silicon
+Sector: #432 322 grams iron, 93 milligrams silicon
+Sector: #244 324 grams iron, 106 milligrams silicon
+Sector: #186 325 grams iron, 56 milligrams silicon
+Sector: #23 337 grams iron, 15 milligrams silicon
+Sector: #113 339 grams iron, 48 milligrams silicon
+Sector: #446 342 grams iron, 21 milligrams silicon
+Sector: #194 344 grams iron, 52 milligrams silicon
+Sector: #445 348 grams iron, 65 milligrams silicon
+Sector: #320 350 grams iron, 49 milligrams silicon
+Sector: #368 353 grams iron, 42 milligrams silicon
+Sector: #381 361 grams iron, 51 milligrams silicon
+Sector: #432 370 grams iron, 56 milligrams silicon
+Sector: #406 377 grams iron, 52 milligrams silicon
+Sector: #32 381 grams iron, 52 milligrams silicon
+Sector: #218 381 grams iron, 36 milligrams silicon
+Sector: #456 390 grams iron, 50 milligrams silicon
+Sector: #288 391 grams iron, 32 milligrams silicon
+Sector: #288 391 grams iron, 41 milligrams silicon
+Sector: #263 393 grams iron, 78 milligrams silicon
+Sector: #76 394 grams iron, 29 milligrams silicon
+Sector: #123 394 grams iron, 60 milligrams silicon
+Sector: #310 398 grams iron, 5 milligrams silicon
+Sector: #476 399 grams iron, 53 milligrams silicon
+Sector: #258 401 grams iron, 46 milligrams silicon
+Sector: #84 404 grams iron, 66 milligrams silicon
+Sector: #457 410 grams iron, 67 milligrams silicon
+Sector: #490 411 grams iron, 46 milligrams silicon
+Sector: #6 420 grams iron, 85 milligrams silicon
+Sector: #281 425 grams iron, 25 milligrams silicon
+Sector: #60 428 grams iron, 54 milligrams silicon
+Sector: #144 433 grams iron, 53 milligrams silicon
+Sector: #171 436 grams iron, 30 milligrams silicon
+Sector: #362 438 grams iron, 56 milligrams silicon
+Sector: #491 443 grams iron, 72 milligrams silicon
+Sector: #415 448 grams iron, 32 milligrams silicon
+Sector: #166 448 grams iron, 13 milligrams silicon
+Sector: #107 451 grams iron, 82 milligrams silicon
+Sector: #35 465 grams iron, 52 milligrams silicon
+Sector: #386 472 grams iron, 57 milligrams silicon
+Sector: #291 474 grams iron, 36 milligrams silicon
+Sector: #394 484 grams iron, 40 milligrams silicon
+Sector: #161 493 grams iron, 59 milligrams silicon
+Sector: #152 498 grams iron, 63 milligrams silicon
+Data by Silicon Level
+Sector: #434 308 grams iron, 3 milligrams silicon
+Sector: #310 398 grams iron, 5 milligrams silicon
+Sector: #112 142 grams iron, 7 milligrams silicon
+Sector: #166 448 grams iron, 13 milligrams silicon
+Sector: #304 160 grams iron, 14 milligrams silicon
+Sector: #23 337 grams iron, 15 milligrams silicon
+Sector: #470 231 grams iron, 15 milligrams silicon
+Sector: #66 261 grams iron, 19 milligrams silicon
+Sector: #446 342 grams iron, 21 milligrams silicon
+Sector: #495 73 grams iron, 22 milligrams silicon
+Sector: #336 153 grams iron, 24 milligrams silicon
+Sector: #281 425 grams iron, 25 milligrams silicon
+Sector: #286 88 grams iron, 26 milligrams silicon
+Sector: #76 394 grams iron, 29 milligrams silicon
+Sector: #328 64 grams iron, 29 milligrams silicon
+Sector: #171 436 grams iron, 30 milligrams silicon
+Sector: #462 213 grams iron, 31 milligrams silicon
+Sector: #415 448 grams iron, 32 milligrams silicon
+Sector: #288 391 grams iron, 32 milligrams silicon
+Sector: #274 231 grams iron, 32 milligrams silicon
+Sector: #301 130 grams iron, 34 milligrams silicon
+Sector: #48 172 grams iron, 35 milligrams silicon
+Sector: #92 225 grams iron, 35 milligrams silicon
+Sector: #183 236 grams iron, 35 milligrams silicon
+Sector: #439 9 grams iron, 36 milligrams silicon
+Sector: #291 474 grams iron, 36 milligrams silicon
+Sector: #218 381 grams iron, 36 milligrams silicon
+Sector: #270 107 grams iron, 38 milligrams silicon
+Sector: #484 189 grams iron, 38 milligrams silicon
+Sector: #71 143 grams iron, 39 milligrams silicon
+Sector: #394 484 grams iron, 40 milligrams silicon
+Sector: #375 144 grams iron, 40 milligrams silicon
+Sector: #288 391 grams iron, 41 milligrams silicon
+Sector: #50 69 grams iron, 41 milligrams silicon
+Sector: #336 229 grams iron, 42 milligrams silicon
+Sector: #308 221 grams iron, 42 milligrams silicon
+Sector: #368 353 grams iron, 42 milligrams silicon
+Sector: #337 74 grams iron, 44 milligrams silicon
+Sector: #80 170 grams iron, 44 milligrams silicon
+Sector: #260 291 grams iron, 45 milligrams silicon
+Sector: #128 273 grams iron, 45 milligrams silicon
+Sector: #280 297 grams iron, 46 milligrams silicon
+Sector: #490 411 grams iron, 46 milligrams silicon
+Sector: #258 401 grams iron, 46 milligrams silicon
+Sector: #91 116 grams iron, 47 milligrams silicon
+Sector: #113 339 grams iron, 48 milligrams silicon
+Sector: #427 189 grams iron, 49 milligrams silicon
+Sector: #281 137 grams iron, 49 milligrams silicon
+Sector: #320 350 grams iron, 49 milligrams silicon
+Sector: #456 390 grams iron, 50 milligrams silicon
+Sector: #21 24 grams iron, 50 milligrams silicon
+Sector: #381 361 grams iron, 51 milligrams silicon
+Sector: #158 227 grams iron, 51 milligrams silicon
+Sector: #243 27 grams iron, 51 milligrams silicon
+Sector: #32 381 grams iron, 52 milligrams silicon
+Sector: #35 465 grams iron, 52 milligrams silicon
+Sector: #194 344 grams iron, 52 milligrams silicon
+Sector: #406 377 grams iron, 52 milligrams silicon
+Sector: #144 433 grams iron, 53 milligrams silicon
+Sector: #476 399 grams iron, 53 milligrams silicon
+Sector: #60 428 grams iron, 54 milligrams silicon
+Sector: #152 37 grams iron, 54 milligrams silicon
+Sector: #451 37 grams iron, 55 milligrams silicon
+Sector: #22 304 grams iron, 55 milligrams silicon
+Sector: #461 67 grams iron, 55 milligrams silicon
+Sector: #362 438 grams iron, 56 milligrams silicon
+Sector: #432 370 grams iron, 56 milligrams silicon
+Sector: #186 325 grams iron, 56 milligrams silicon
+Sector: #386 472 grams iron, 57 milligrams silicon
+Sector: #317 282 grams iron, 57 milligrams silicon
+Sector: #167 241 grams iron, 57 milligrams silicon
+Sector: #161 493 grams iron, 59 milligrams silicon
+Sector: #81 238 grams iron, 60 milligrams silicon
+Sector: #434 130 grams iron, 60 milligrams silicon
+Sector: #123 394 grams iron, 60 milligrams silicon
+Sector: #33 284 grams iron, 60 milligrams silicon
+Sector: #400 322 grams iron, 61 milligrams silicon
+Sector: #421 40 grams iron, 61 milligrams silicon
+Sector: #152 498 grams iron, 63 milligrams silicon
+Sector: #445 348 grams iron, 65 milligrams silicon
+Sector: #84 404 grams iron, 66 milligrams silicon
+Sector: #457 410 grams iron, 67 milligrams silicon
+Sector: #41 9 grams iron, 71 milligrams silicon
+Sector: #491 443 grams iron, 72 milligrams silicon
+Sector: #455 320 grams iron, 72 milligrams silicon
+Sector: #370 40 grams iron, 73 milligrams silicon
+Sector: #498 228 grams iron, 74 milligrams silicon
+Sector: #215 14 grams iron, 76 milligrams silicon
+Sector: #455 293 grams iron, 78 milligrams silicon
+Sector: #263 393 grams iron, 78 milligrams silicon
+Sector: #118 250 grams iron, 80 milligrams silicon
+Sector: #107 451 grams iron, 82 milligrams silicon
+Sector: #250 206 grams iron, 83 milligrams silicon
+Sector: #6 420 grams iron, 85 milligrams silicon
+Sector: #8 250 grams iron, 88 milligrams silicon
+Sector: #73 91 grams iron, 91 milligrams silicon
+Sector: #259 22 grams iron, 91 milligrams silicon
+Sector: #432 322 grams iron, 93 milligrams silicon
+Sector: #449 205 grams iron, 95 milligrams silicon
+Sector: #244 324 grams iron, 106 milligrams silicon
+----------------------------------------------------------------------
+Averages per sector
+----------------------------------------------------------------------
+Sector: #1  -- no data -- 
+Sector: #2  -- no data -- 
+Sector: #3  -- no data -- 
+Sector: #4  -- no data -- 
+Sector: #5  -- no data -- 
+Sector: #6 420 grams iron, 85 milligrams silicon
+Sector: #7  -- no data -- 
+Sector: #8 250 grams iron, 88 milligrams silicon
+Sector: #9  -- no data -- 
+Sector: #10  -- no data -- 
+Sector: #11  -- no data -- 
+Sector: #12  -- no data -- 
+Sector: #13  -- no data -- 
+Sector: #14  -- no data -- 
+Sector: #15  -- no data -- 
+Sector: #16  -- no data -- 
+Sector: #17  -- no data -- 
+Sector: #18  -- no data -- 
+Sector: #19  -- no data -- 
+Sector: #20  -- no data -- 
+Sector: #21 24 grams iron, 50 milligrams silicon
+Sector: #22 304 grams iron, 55 milligrams silicon
+Sector: #23 337 grams iron, 15 milligrams silicon
+Sector: #24  -- no data -- 
+Sector: #25  -- no data -- 
+Sector: #26  -- no data -- 
+Sector: #27  -- no data -- 
+Sector: #28  -- no data -- 
+Sector: #29  -- no data -- 
+Sector: #30  -- no data -- 
+Sector: #31  -- no data -- 
+Sector: #32 381 grams iron, 52 milligrams silicon
+Sector: #33 284 grams iron, 60 milligrams silicon
+Sector: #34  -- no data -- 
+Sector: #35 465 grams iron, 52 milligrams silicon
+Sector: #36  -- no data -- 
+Sector: #37  -- no data -- 
+Sector: #38  -- no data -- 
+Sector: #39  -- no data -- 
+Sector: #40  -- no data -- 
+Sector: #41 9 grams iron, 71 milligrams silicon
+Sector: #42  -- no data -- 
+Sector: #43  -- no data -- 
+Sector: #44  -- no data -- 
+Sector: #45  -- no data -- 
+Sector: #46  -- no data -- 
+Sector: #47  -- no data -- 
+Sector: #48 172 grams iron, 35 milligrams silicon
+Sector: #49  -- no data -- 
+Sector: #50 69 grams iron, 41 milligrams silicon
+Sector: #51  -- no data -- 
+Sector: #52  -- no data -- 
+Sector: #53  -- no data -- 
+Sector: #54  -- no data -- 
+Sector: #55  -- no data -- 
+Sector: #56  -- no data -- 
+Sector: #57  -- no data -- 
+Sector: #58  -- no data -- 
+Sector: #59  -- no data -- 
+Sector: #60 428 grams iron, 54 milligrams silicon
+Sector: #61  -- no data -- 
+Sector: #62  -- no data -- 
+Sector: #63  -- no data -- 
+Sector: #64  -- no data -- 
+Sector: #65  -- no data -- 
+Sector: #66 261 grams iron, 19 milligrams silicon
+Sector: #67  -- no data -- 
+Sector: #68  -- no data -- 
+Sector: #69  -- no data -- 
+Sector: #70  -- no data -- 
+Sector: #71 143 grams iron, 39 milligrams silicon
+Sector: #72  -- no data -- 
+Sector: #73 91 grams iron, 91 milligrams silicon
+Sector: #74  -- no data -- 
+Sector: #75  -- no data -- 
+Sector: #76 394 grams iron, 29 milligrams silicon
+Sector: #77  -- no data -- 
+Sector: #78  -- no data -- 
+Sector: #79  -- no data -- 
+Sector: #80 170 grams iron, 44 milligrams silicon
+Sector: #81 238 grams iron, 60 milligrams silicon
+Sector: #82  -- no data -- 
+Sector: #83  -- no data -- 
+Sector: #84 404 grams iron, 66 milligrams silicon
+Sector: #85  -- no data -- 
+Sector: #86  -- no data -- 
+Sector: #87  -- no data -- 
+Sector: #88  -- no data -- 
+Sector: #89  -- no data -- 
+Sector: #90  -- no data -- 
+Sector: #91 116 grams iron, 47 milligrams silicon
+Sector: #92 225 grams iron, 35 milligrams silicon
+Sector: #93  -- no data -- 
+Sector: #94  -- no data -- 
+Sector: #95  -- no data -- 
+Sector: #96  -- no data -- 
+Sector: #97  -- no data -- 
+Sector: #98  -- no data -- 
+Sector: #99  -- no data -- 
+Sector: #100  -- no data -- 
+Sector: #101  -- no data -- 
+Sector: #102  -- no data -- 
+Sector: #103  -- no data -- 
+Sector: #104  -- no data -- 
+Sector: #105  -- no data -- 
+Sector: #106  -- no data -- 
+Sector: #107 451 grams iron, 82 milligrams silicon
+Sector: #108  -- no data -- 
+Sector: #109  -- no data -- 
+Sector: #110  -- no data -- 
+Sector: #111  -- no data -- 
+Sector: #112 142 grams iron, 7 milligrams silicon
+Sector: #113 339 grams iron, 48 milligrams silicon
+Sector: #114  -- no data -- 
+Sector: #115  -- no data -- 
+Sector: #116  -- no data -- 
+Sector: #117  -- no data -- 
+Sector: #118 250 grams iron, 80 milligrams silicon
+Sector: #119  -- no data -- 
+Sector: #120  -- no data -- 
+Sector: #121  -- no data -- 
+Sector: #122  -- no data -- 
+Sector: #123 394 grams iron, 60 milligrams silicon
+Sector: #124  -- no data -- 
+Sector: #125  -- no data -- 
+Sector: #126  -- no data -- 
+Sector: #127  -- no data -- 
+Sector: #128 273 grams iron, 45 milligrams silicon
+Sector: #129  -- no data -- 
+Sector: #130  -- no data -- 
+Sector: #131  -- no data -- 
+Sector: #132  -- no data -- 
+Sector: #133  -- no data -- 
+Sector: #134  -- no data -- 
+Sector: #135  -- no data -- 
+Sector: #136  -- no data -- 
+Sector: #137  -- no data -- 
+Sector: #138  -- no data -- 
+Sector: #139  -- no data -- 
+Sector: #140  -- no data -- 
+Sector: #141  -- no data -- 
+Sector: #142  -- no data -- 
+Sector: #143  -- no data -- 
+Sector: #144 433 grams iron, 53 milligrams silicon
+Sector: #145  -- no data -- 
+Sector: #146  -- no data -- 
+Sector: #147  -- no data -- 
+Sector: #148  -- no data -- 
+Sector: #149  -- no data -- 
+Sector: #150  -- no data -- 
+Sector: #151  -- no data -- 
+Sector: #152 267 grams iron, 58 milligrams silicon
+Sector: #153  -- no data -- 
+Sector: #154  -- no data -- 
+Sector: #155  -- no data -- 
+Sector: #156  -- no data -- 
+Sector: #157  -- no data -- 
+Sector: #158 227 grams iron, 51 milligrams silicon
+Sector: #159  -- no data -- 
+Sector: #160  -- no data -- 
+Sector: #161 493 grams iron, 59 milligrams silicon
+Sector: #162  -- no data -- 
+Sector: #163  -- no data -- 
+Sector: #164  -- no data -- 
+Sector: #165  -- no data -- 
+Sector: #166 448 grams iron, 13 milligrams silicon
+Sector: #167 241 grams iron, 57 milligrams silicon
+Sector: #168  -- no data -- 
+Sector: #169  -- no data -- 
+Sector: #170  -- no data -- 
+Sector: #171 436 grams iron, 30 milligrams silicon
+Sector: #172  -- no data -- 
+Sector: #173  -- no data -- 
+Sector: #174  -- no data -- 
+Sector: #175  -- no data -- 
+Sector: #176  -- no data -- 
+Sector: #177  -- no data -- 
+Sector: #178  -- no data -- 
+Sector: #179  -- no data -- 
+Sector: #180  -- no data -- 
+Sector: #181  -- no data -- 
+Sector: #182  -- no data -- 
+Sector: #183 236 grams iron, 35 milligrams silicon
+Sector: #184  -- no data -- 
+Sector: #185  -- no data -- 
+Sector: #186 325 grams iron, 56 milligrams silicon
+Sector: #187  -- no data -- 
+Sector: #188  -- no data -- 
+Sector: #189  -- no data -- 
+Sector: #190  -- no data -- 
+Sector: #191  -- no data -- 
+Sector: #192  -- no data -- 
+Sector: #193  -- no data -- 
+Sector: #194 344 grams iron, 52 milligrams silicon
+Sector: #195  -- no data -- 
+Sector: #196  -- no data -- 
+Sector: #197  -- no data -- 
+Sector: #198  -- no data -- 
+Sector: #199  -- no data -- 
+Sector: #200  -- no data -- 
+Sector: #201  -- no data -- 
+Sector: #202  -- no data -- 
+Sector: #203  -- no data -- 
+Sector: #204  -- no data -- 
+Sector: #205  -- no data -- 
+Sector: #206  -- no data -- 
+Sector: #207  -- no data -- 
+Sector: #208  -- no data -- 
+Sector: #209  -- no data -- 
+Sector: #210  -- no data -- 
+Sector: #211  -- no data -- 
+Sector: #212  -- no data -- 
+Sector: #213  -- no data -- 
+Sector: #214  -- no data -- 
+Sector: #215 14 grams iron, 76 milligrams silicon
+Sector: #216  -- no data -- 
+Sector: #217  -- no data -- 
+Sector: #218 381 grams iron, 36 milligrams silicon
+Sector: #219  -- no data -- 
+Sector: #220  -- no data -- 
+Sector: #221  -- no data -- 
+Sector: #222  -- no data -- 
+Sector: #223  -- no data -- 
+Sector: #224  -- no data -- 
+Sector: #225  -- no data -- 
+Sector: #226  -- no data -- 
+Sector: #227  -- no data -- 
+Sector: #228  -- no data -- 
+Sector: #229  -- no data -- 
+Sector: #230  -- no data -- 
+Sector: #231  -- no data -- 
+Sector: #232  -- no data -- 
+Sector: #233  -- no data -- 
+Sector: #234  -- no data -- 
+Sector: #235  -- no data -- 
+Sector: #236  -- no data -- 
+Sector: #237  -- no data -- 
+Sector: #238  -- no data -- 
+Sector: #239  -- no data -- 
+Sector: #240  -- no data -- 
+Sector: #241  -- no data -- 
+Sector: #242  -- no data -- 
+Sector: #243 27 grams iron, 51 milligrams silicon
+Sector: #244 324 grams iron, 106 milligrams silicon
+Sector: #245  -- no data -- 
+Sector: #246  -- no data -- 
+Sector: #247  -- no data -- 
+Sector: #248  -- no data -- 
+Sector: #249  -- no data -- 
+Sector: #250 206 grams iron, 83 milligrams silicon
+Sector: #251  -- no data -- 
+Sector: #252  -- no data -- 
+Sector: #253  -- no data -- 
+Sector: #254  -- no data -- 
+Sector: #255  -- no data -- 
+Sector: #256  -- no data -- 
+Sector: #257  -- no data -- 
+Sector: #258 401 grams iron, 46 milligrams silicon
+Sector: #259 22 grams iron, 91 milligrams silicon
+Sector: #260 291 grams iron, 45 milligrams silicon
+Sector: #261  -- no data -- 
+Sector: #262  -- no data -- 
+Sector: #263 393 grams iron, 78 milligrams silicon
+Sector: #264  -- no data -- 
+Sector: #265  -- no data -- 
+Sector: #266  -- no data -- 
+Sector: #267  -- no data -- 
+Sector: #268  -- no data -- 
+Sector: #269  -- no data -- 
+Sector: #270 107 grams iron, 38 milligrams silicon
+Sector: #271  -- no data -- 
+Sector: #272  -- no data -- 
+Sector: #273  -- no data -- 
+Sector: #274 231 grams iron, 32 milligrams silicon
+Sector: #275  -- no data -- 
+Sector: #276  -- no data -- 
+Sector: #277  -- no data -- 
+Sector: #278  -- no data -- 
+Sector: #279  -- no data -- 
+Sector: #280 297 grams iron, 46 milligrams silicon
+Sector: #281 281 grams iron, 37 milligrams silicon
+Sector: #282  -- no data -- 
+Sector: #283  -- no data -- 
+Sector: #284  -- no data -- 
+Sector: #285  -- no data -- 
+Sector: #286 88 grams iron, 26 milligrams silicon
+Sector: #287  -- no data -- 
+Sector: #288 391 grams iron, 36 milligrams silicon
+Sector: #289  -- no data -- 
+Sector: #290  -- no data -- 
+Sector: #291 474 grams iron, 36 milligrams silicon
+Sector: #292  -- no data -- 
+Sector: #293  -- no data -- 
+Sector: #294  -- no data -- 
+Sector: #295  -- no data -- 
+Sector: #296  -- no data -- 
+Sector: #297  -- no data -- 
+Sector: #298  -- no data -- 
+Sector: #299  -- no data -- 
+Sector: #300  -- no data -- 
+Sector: #301 130 grams iron, 34 milligrams silicon
+Sector: #302  -- no data -- 
+Sector: #303  -- no data -- 
+Sector: #304 160 grams iron, 14 milligrams silicon
+Sector: #305  -- no data -- 
+Sector: #306  -- no data -- 
+Sector: #307  -- no data -- 
+Sector: #308 221 grams iron, 42 milligrams silicon
+Sector: #309  -- no data -- 
+Sector: #310 398 grams iron, 5 milligrams silicon
+Sector: #311  -- no data -- 
+Sector: #312  -- no data -- 
+Sector: #313  -- no data -- 
+Sector: #314  -- no data -- 
+Sector: #315  -- no data -- 
+Sector: #316  -- no data -- 
+Sector: #317 282 grams iron, 57 milligrams silicon
+Sector: #318  -- no data -- 
+Sector: #319  -- no data -- 
+Sector: #320 350 grams iron, 49 milligrams silicon
+Sector: #321  -- no data -- 
+Sector: #322  -- no data -- 
+Sector: #323  -- no data -- 
+Sector: #324  -- no data -- 
+Sector: #325  -- no data -- 
+Sector: #326  -- no data -- 
+Sector: #327  -- no data -- 
+Sector: #328 64 grams iron, 29 milligrams silicon
+Sector: #329  -- no data -- 
+Sector: #330  -- no data -- 
+Sector: #331  -- no data -- 
+Sector: #332  -- no data -- 
+Sector: #333  -- no data -- 
+Sector: #334  -- no data -- 
+Sector: #335  -- no data -- 
+Sector: #336 191 grams iron, 33 milligrams silicon
+Sector: #337 74 grams iron, 44 milligrams silicon
+Sector: #338  -- no data -- 
+Sector: #339  -- no data -- 
+Sector: #340  -- no data -- 
+Sector: #341  -- no data -- 
+Sector: #342  -- no data -- 
+Sector: #343  -- no data -- 
+Sector: #344  -- no data -- 
+Sector: #345  -- no data -- 
+Sector: #346  -- no data -- 
+Sector: #347  -- no data -- 
+Sector: #348  -- no data -- 
+Sector: #349  -- no data -- 
+Sector: #350  -- no data -- 
+Sector: #351  -- no data -- 
+Sector: #352  -- no data -- 
+Sector: #353  -- no data -- 
+Sector: #354  -- no data -- 
+Sector: #355  -- no data -- 
+Sector: #356  -- no data -- 
+Sector: #357  -- no data -- 
+Sector: #358  -- no data -- 
+Sector: #359  -- no data -- 
+Sector: #360  -- no data -- 
+Sector: #361  -- no data -- 
+Sector: #362 438 grams iron, 56 milligrams silicon
+Sector: #363  -- no data -- 
+Sector: #364  -- no data -- 
+Sector: #365  -- no data -- 
+Sector: #366  -- no data -- 
+Sector: #367  -- no data -- 
+Sector: #368 353 grams iron, 42 milligrams silicon
+Sector: #369  -- no data -- 
+Sector: #370 40 grams iron, 73 milligrams silicon
+Sector: #371  -- no data -- 
+Sector: #372  -- no data -- 
+Sector: #373  -- no data -- 
+Sector: #374  -- no data -- 
+Sector: #375 144 grams iron, 40 milligrams silicon
+Sector: #376  -- no data -- 
+Sector: #377  -- no data -- 
+Sector: #378  -- no data -- 
+Sector: #379  -- no data -- 
+Sector: #380  -- no data -- 
+Sector: #381 361 grams iron, 51 milligrams silicon
+Sector: #382  -- no data -- 
+Sector: #383  -- no data -- 
+Sector: #384  -- no data -- 
+Sector: #385  -- no data -- 
+Sector: #386 472 grams iron, 57 milligrams silicon
+Sector: #387  -- no data -- 
+Sector: #388  -- no data -- 
+Sector: #389  -- no data -- 
+Sector: #390  -- no data -- 
+Sector: #391  -- no data -- 
+Sector: #392  -- no data -- 
+Sector: #393  -- no data -- 
+Sector: #394 484 grams iron, 40 milligrams silicon
+Sector: #395  -- no data -- 
+Sector: #396  -- no data -- 
+Sector: #397  -- no data -- 
+Sector: #398  -- no data -- 
+Sector: #399  -- no data -- 
+Sector: #400 322 grams iron, 61 milligrams silicon
+Sector: #401  -- no data -- 
+Sector: #402  -- no data -- 
+Sector: #403  -- no data -- 
+Sector: #404  -- no data -- 
+Sector: #405  -- no data -- 
+Sector: #406 377 grams iron, 52 milligrams silicon
+Sector: #407  -- no data -- 
+Sector: #408  -- no data -- 
+Sector: #409  -- no data -- 
+Sector: #410  -- no data -- 
+Sector: #411  -- no data -- 
+Sector: #412  -- no data -- 
+Sector: #413  -- no data -- 
+Sector: #414  -- no data -- 
+Sector: #415 448 grams iron, 32 milligrams silicon
+Sector: #416  -- no data -- 
+Sector: #417  -- no data -- 
+Sector: #418  -- no data -- 
+Sector: #419  -- no data -- 
+Sector: #420  -- no data -- 
+Sector: #421 40 grams iron, 61 milligrams silicon
+Sector: #422  -- no data -- 
+Sector: #423  -- no data -- 
+Sector: #424  -- no data -- 
+Sector: #425  -- no data -- 
+Sector: #426  -- no data -- 
+Sector: #427 189 grams iron, 49 milligrams silicon
+Sector: #428  -- no data -- 
+Sector: #429  -- no data -- 
+Sector: #430  -- no data -- 
+Sector: #431  -- no data -- 
+Sector: #432 346 grams iron, 74 milligrams silicon
+Sector: #433  -- no data -- 
+Sector: #434 219 grams iron, 31 milligrams silicon
+Sector: #435  -- no data -- 
+Sector: #436  -- no data -- 
+Sector: #437  -- no data -- 
+Sector: #438  -- no data -- 
+Sector: #439 9 grams iron, 36 milligrams silicon
+Sector: #440  -- no data -- 
+Sector: #441  -- no data -- 
+Sector: #442  -- no data -- 
+Sector: #443  -- no data -- 
+Sector: #444  -- no data -- 
+Sector: #445 348 grams iron, 65 milligrams silicon
+Sector: #446 342 grams iron, 21 milligrams silicon
+Sector: #447  -- no data -- 
+Sector: #448  -- no data -- 
+Sector: #449 205 grams iron, 95 milligrams silicon
+Sector: #450  -- no data -- 
+Sector: #451 37 grams iron, 55 milligrams silicon
+Sector: #452  -- no data -- 
+Sector: #453  -- no data -- 
+Sector: #454  -- no data -- 
+Sector: #455 306 grams iron, 75 milligrams silicon
+Sector: #456 390 grams iron, 50 milligrams silicon
+Sector: #457 410 grams iron, 67 milligrams silicon
+Sector: #458  -- no data -- 
+Sector: #459  -- no data -- 
+Sector: #460  -- no data -- 
+Sector: #461 67 grams iron, 55 milligrams silicon
+Sector: #462 213 grams iron, 31 milligrams silicon
+Sector: #463  -- no data -- 
+Sector: #464  -- no data -- 
+Sector: #465  -- no data -- 
+Sector: #466  -- no data -- 
+Sector: #467  -- no data -- 
+Sector: #468  -- no data -- 
+Sector: #469  -- no data -- 
+Sector: #470 231 grams iron, 15 milligrams silicon
+Sector: #471  -- no data -- 
+Sector: #472  -- no data -- 
+Sector: #473  -- no data -- 
+Sector: #474  -- no data -- 
+Sector: #475  -- no data -- 
+Sector: #476 399 grams iron, 53 milligrams silicon
+Sector: #477  -- no data -- 
+Sector: #478  -- no data -- 
+Sector: #479  -- no data -- 
+Sector: #480  -- no data -- 
+Sector: #481  -- no data -- 
+Sector: #482  -- no data -- 
+Sector: #483  -- no data -- 
+Sector: #484 189 grams iron, 38 milligrams silicon
+Sector: #485  -- no data -- 
+Sector: #486  -- no data -- 
+Sector: #487  -- no data -- 
+Sector: #488  -- no data -- 
+Sector: #489  -- no data -- 
+Sector: #490 411 grams iron, 46 milligrams silicon
+Sector: #491 443 grams iron, 72 milligrams silicon
+Sector: #492  -- no data -- 
+Sector: #493  -- no data -- 
+Sector: #494  -- no data -- 
+Sector: #495 73 grams iron, 22 milligrams silicon
+Sector: #496  -- no data -- 
+Sector: #497  -- no data -- 
+Sector: #498 228 grams iron, 74 milligrams silicon
+----------------------------------------------------------------------
+Bad sectors
+----------------------------------------------------------------------
+

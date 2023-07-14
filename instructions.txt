@@ -1,0 +1,475 @@
+================================================================================
+========================================================= Overview and Objective 
+
+For this assignment you will write a program that reads in data (imagine it is
+coming from sensors) and stores that data in a special kind of linked
+list. After reading and storing all of data, your program will generate a
+report from the data. The "background.txt" file gives a short story that
+provides some context for where this data is coming from and how it's being
+used. Reading the story is just for fun and is optional.
+
+The two primary objectives of this assignment are to learn how to implement a
+specialized linked list and to gain familiarity with using a linked list in
+solving problems. Using the STL linked list, or any other premade linked list,
+would not fulfill the purpose of the assignment therefore those are
+disallowed.
+
+Linked lists are extremely common in all software. In some cases a standard
+linked list will suffice but often it is necessary to create a more
+specialized linked list for solving a specific problem. For this assignment
+you'll be creating a singly-linked list. This linked list will have the
+special property that you can traverse through the nodes in three different
+sort orders. Don't let this scare you. It's not as complicated as it
+sounds. More details are provided in the sections below. Also, there will be a
+sequence of tasks that will guide you step-by-step in creating this strange
+sounding thing.
+
+Your program will be evaluated based on both how it runs as well as how it was
+designed and coded. Pay attention to the "rubric.txt" file to see how it will
+be evaluated.
+
+Along with these instructions, I have provided data files and the EXACT
+expected output that corresponds to those data files. It is important that
+your program output matches EXACTLY. This includes spelling, whitespace, and
+punctuation. Fortunately, on a linux system it is very easy to check the
+output and see that it matches exactly as required. See the file
+~mike.noel/classes/all/checking_output.txt for information about how to do this.
+
+The rest of this document provides more details about the assignment. It is
+important that you read and understand this entire document before beginning
+the assignment. If you have any questions, be sure to post in the discussion
+group or send me email. Do not wait until the last minute to start this
+assignment.
+
+================================================================================
+======================================================================== Details 
+
+This program performs a rather simple task. It reads a bunch of data from a
+datafile and passes all that data to a data logger. After all the data is
+read, it asks the data logger to generate a couple reports about that data.
+This algorithm is fairly straight-forward and I've provided the main()
+function for you. This is found in process.cpp. The code I provide reads the
+data file, sends the data to the data logger, and then asks for reports. You
+will not change any of the code in process.cpp.
+
+Instead, you will be responsible for writing three key classes in this
+program. There is a class for holding a single record of data. This is called
+SensorData. There is a class that is a linked list of SensorData objects. This
+is called LinkedList. Finally, there is a class that has a LinkedList as a
+data member and provides a public interface for adding/removing data and
+generating reports. This class is called DataLogger.
+
+It is important that you understand this approach. The four primary modules
+for this program are:
+
+main() -- this function reads the data file, sends data to the DataLogger, and
+requests the DataLogger to print reports.
+
+DataLogger -- this class manages logging data and can print reports about the
+data.
+
+LinkedList -- this class is a LinkedList for storing data.
+
+SensorData -- this class is a wrapper to bundle all the three data values that
+represent a single sensor reading into one object.
+
+
+This diagram might help.
+
+main() 		--- calls methods on ---> 	   DataLogger
+DataLogger 	--- contains --->    		   LinkedList
+LinkedList 	--- contains ---> 		   SensorData
+SensorData 	--- contains ---> 		   data values
+
+The details about these classes are presented below.
+
+-------------------------------------------------------------------- Sensor Data
+
+The data that is being logged is data coming from sensors. Each reading
+represents the iron level and silicon level as measured in a single core
+sample taken at a given sector. Think about geology where scientists drill out
+a core of rock and measure things in that sample. Each sensor, in a sector,
+will generate many different readings.
+
+Unfortunately, some of the sensors are bad and intermittently produce
+incorrect data. When this happens, either the iron level or the silicon level
+will be -1. In this case, none of the data from that sensor can be trusted and
+it must all be discarded. Note that this isn't just the one bad reading that
+should be discarded, but ALL data (past, present, and future) from that
+sensor. This logic is already captured in process.cpp. As long as you
+implement the addData() and removeSector() methods on the DataLogger class
+(see below), then you don't have to do anything extra to get rid of bad data.
+
+In terms of data representation, this means that each data bundle has three
+integer values associated with it: sector number, iron level, silicon level.
+
+You will represent this with a class called SensorData. This class will have
+data members for each of the three integer values. It should have a single
+constructor that takes the three values as arguments. It should also have
+appropriate getters. You are free to add additional methods as you see fit
+(except for additional constructors).
+
+--------------------------------------------------------------------- LinkedList 
+
+The SensorData objects will need to be stored somewhere. That is going to be
+done in a linked list. A simple linked list is sometimes sufficient for an
+application but more often than not a more sophisticated link structure is
+needed. For this program you will be creating a linked list to store all the
+SensorData objects but it will also allow you to traverse through the list in
+three different ways. You will be able to traverse starting at the lowest
+sector number and going to the largest, starting at the lowest iron level and
+going to the largest, or starting at the lowest silicon level and going to the
+largest.
+
+In any linked list, we traverse the list starting at the head and follow the
+next pointers. This means that we always visit the nodes in the linked list in
+the same order and that order is dictated by the next pointers. If we are
+careful about where we insert new nodes into the list, we can control the
+order of the nodes. For example, if we want to store nodes in a sorted order,
+then, when we insert the new node, we traverse to the correct insertion point
+(by comparing the existing node values to the node we want to insert) and then
+insert the data there.
+
+Since our special LinkedList for this assignment needs to be able to support
+three different sort orders, this means that we will have three head pointers
+and three next pointers in each node! Don't worry, the Tasks (see the section
+below) will guide you in creating this beast.
+
+The LinkedList class will have a method for inserting a new SensorData object
+into the list. When a new SensorData object is inserted into the list, it is
+inserted in such a way that preserves all three sort orders.
+
+The LinkedList class will also have a method for removing SensorData objects
+from the list. It is important to ensure that when a node is removed, all
+three sort order chains are still intact.
+
+The LinkedList will have other public methods for traversing the list in
+various ways. During development you may find that you need additional
+methods. You are free to add them.
+
+As usual for a LinkedList, there will be a Node struct (or class if you
+prefer). This Node structure will contain a SensorData object and three next
+pointers (next_by_sector, next_by_iron, next_by_silicon). 
+
+The LinkedList class itself will have three head pointers (one for each sort
+order) and an integer count of the number of items in the list.
+
+VERY IMPORTANT NOTE: Our special LinkedList is not just a wrapper for three
+separate linked list. Instead, it is a single linked list but there are three
+"chains" following next pointers through the same set of nodes. For each
+SensorData object there only ONE node. This is extremely important so if you
+have questions about it, let me know.
+
+--------------------------------------------------------------------- DataLogger
+
+With the SensorData class we have a way of encapsulating a data record. With
+the LinkedList class we have a way of storing a bunch of SensorData
+objects. You might think that this is all we need and that the main() function
+could just add and remove things from the LinkedList. The problem with that
+approach is that it would mean that the main() function knows that the data is
+stored as a LinkedList. That is not something that the main() function should
+know. As far as the main() function is concerned, there is some object that it
+can send data to, remove data from, and ask for a report. Note that nothing
+about this indicates how the data is stored or how a report is generated.
+
+This is where the DataLogger class comes into play. The DataLogger provides
+the following public methods:
+
+addData() -- this method receives data values, bundles them into a SensorData
+object, and then adds them to the datalog.
+
+containsSector() -- this method checks to see if a given sector has been added
+to the datalog yet.
+
+removeSector() -- this method removes all data associated with the given
+sector from the datalog.
+
+printReport() -- this method prints a data report. The contents and format of
+this report are described later on.
+
+printSectorList() -- this method prints a list of all the sectors that have
+been logged.
+
+The datalog is going to be implemented using the LinkedList described
+above. This means that "adding to the datalog" is just inserting into the
+LinkedList. The DataLogger should only use the public methods on the
+LinkedList to perform its operations. The DataLogger should not have any
+knowledge about the head or next pointers in LinkedList nodes. 
+
+------------------------------------------------------------------- Main Program
+
+I've already written the main part of the program for you. That is, I've
+provided process.cpp which has the main() function for this program. This code
+opens the datafile, reads the data, sends the data to the data logger, and
+also asks the data logger to print the reports.
+
+You will not edit any code in process.cpp. It is one of the implementation
+requirements that you do not change any of this code.
+
+------------------------------------------------------- Report Output and Format
+
+The report that your program outputs contains the following three
+sections. Each section is described in more detail below. The example output
+files that are included with the assignment show the exact format for each.
+
+  - Data values
+  - Averages per sector
+  - Bad sectors
+
+The "Data values" section lists all of the values three times. The first time
+it displays all the values in ascending order according to the sector
+number. The second time it displays all the values in ascending order
+according to the iron value. The third time it displays all the values in
+ascending order according to the silicon value. Each list is proceeded with a
+section header that explains what the list is. For example "Data by sector".
+
+Each line that shows the data in a sector shows the sector number, the
+iron level, and the silicon level. The format is:
+
+Sector: #<num> <iron> grams iron, <silicon> milligrams silicon
+
+For example:
+
+Sector: #1 81 grams iron, 17 milligrams silicon
+
+The "Averages per sector" section lists each of the sectors that has data and
+shows the average iron level and silicon level for that particular
+sector. This uses the same line format as the "Data values" section. For
+example, the following line shows that across all readings, the average iron
+level in sector #1 was 62 grams and the average silicon level was 21
+milligrams.
+
+Sector: #1 62 grams iron, 21 milligrams silicon
+
+The "Bad sectors" section lists all of the bad sectors. The list of bad
+sectors is a comma separated list of sectors with no line breaks. For example:
+
+17, 51, 119, 170, 187, 204, 221, 255, 272, 289, 306, 340, 374, 391, 408, 442, 493
+
+Each section heading consists of a line of 70 dashes, a line with the title of
+the sections, and then another line of 70 dashes. For example:
+
+--- ... <total of 70 dashes> ... ---
+Data values
+--- ... <total of 70 dashes> ... ---
+
+All of the reports (except the list of bad sectors) are generated using the
+cleaned version of the data. That is, it doesn't include any data from bad
+sectors.
+
+-------------------------------------------------------- Additional Requirements
+
+There are a few miscellaneous additional requirements:
+
+- The program must use the supplied process.cpp file, unmodified, as the main
+  driver.
+- Your program must have no memory leaks or memory errors as reported by
+  valgrind. See ~mike.noel/classes/all/memory_check.txt for information on
+  checking for memory leaks and errors.
+- If any of your classes have pointer data members then the class must either
+  provide a copy constructor, assignment operator, and destructor or it must
+  explicitly remove those methods from the class.
+- The program must be able to run using the "huge.txt" input data file
+  in less than 5 seconds on the PCC linux server.
+
+
+================================================================================
+========================================================================== Tasks
+
+In this section I outline the sequence of tasks that you should do to complete
+this project. After each task (except the first one) you should be able to
+compile and run your program. Also, at each task step, you should use valgrind
+to make sure that you don't have any memory errors or leaks.
+
+To help you pace yourself, I've added estimates of about how long I think each
+of these tasks takes an average student.
+
+Task 1: Read and Understand (aproximately 1 hr)
+
+    You should read (and understand) each of the documents in this assignment:
+
+    - instructions.txt (this document)
+    - background.txt
+    - rubric.txt
+
+    Next, you should read the "process.cpp" file. There are many comments in
+    that file that explain how the main() code works.
+
+    Next, you should examine medium.txt and medium.txt.out to see how the data
+    is formatted in medium.txt and what the reports look like in
+    medium.txt.out.
+
+Task 2: Initial "shell" (approximately 1 hr)
+
+    The goal of this task is to get a basic "shell" of the program to compile
+    and run. This shell won't do anything but it gives us a solid foundation
+    to start with.
+
+    First try to compile the program using the files "as is" from the
+    assignment. Use the command:
+
+        g++ -o site_survey -g *.cpp
+
+    You will get errors telling you that "datalogger.h" is missing. Create a
+    new file "datalogger.h" and put an initial class definition for DataLogger
+    in that file. This class doesn't need any data members yet. Add all the
+    required methods to the class definition. Create "datalogger.cpp" and add
+    an empty implementation for each of the methods.
+
+    When you have completed this correctly then you will be able to compile
+    and run your program. It won't do anything yet.
+
+Task 3: create the SensorData class (approx 1 hr)
+
+    Create a new class (separate header and implementation files) for
+    SensorData. The details for this class are described above.
+
+    You aren't using the SensorData class anywhere yet so your program should
+    still compile and run.
+
+Task 4: create the LinkedList class "shell" (approximately 2 hr)
+
+    Create a LinkedList class definition with the following methods in the
+    header file (not implemented yet):
+
+    - default constructor
+    - copy constructor
+    - destructor
+    - operator=
+    - addSensorData
+    - printListBySector
+
+    Define the node for your LinkedList so that it has two data members. One
+    is the SensorData object and the other is called "nextBySector" and it is
+    a Node pointer.
+
+    Define two data members for the LinkedList class:
+    - Node* headBySector
+    - int count
+
+    Create a "linkedlist.cpp" file with stub implementations for all the
+    methods listed above. A "stub" implementation means that the method body
+    is empty (or just returns a default value if a return is needed).
+
+    Add a LinkedList data member to your DataLogger class.
+    
+    At this point you should be able to compile your program. It still won't
+    do anything but if you are past all the compilation errors then that's
+    great!
+
+Task 5: Implement LinkedList::addSensorData() part 1 (4 hr)
+
+    For this task implement the addSensorData() method in LinkedList but only
+    insert in the "by sector" sort order chain. That is, you can just pretend
+    that the sort order for iron and silicon doesn't exist.
+
+    Implement the printListBySector() method. At this point this method will
+    just go through the linked list nodes starting at headBySector and
+    following nextBySector. It will print the SensorData in each node. Don't
+    worry about the format yet.
+
+    Add an implementation to DataLogger::addData() so that it creates a
+    SensorData bundle and then calls the LinkedList::addSensorData() method.
+
+    Add an implementation to DataLogger::printReport() that just calls the
+    LinkedList::printListBySector() method.
+
+    At this point your program should be able to run and print out a list of
+    the sectors that are added to the datalog. You can experiment with various
+    data files to make sure it works.
+
+Task 6: Implement LinkedList::addSensorData() part 2 (2 hr)
+
+    Now that you have the basic insert working, add support for the iron and
+    silicon chains.
+
+    Create headByIron and headBySilicon pointers in the LinkedList data
+    members.
+
+    Create nextByIron and nextBySilicon pointers in the Node struct.
+
+    Update addSensorData() to adjust the "chains" when following the data
+    using headByIron/nextByIron and headBySilicon/nextBySilicon. In the
+    previous task you had to create a new Node for the data while adding
+    it. In this task you will reuse that same node but just link it in a
+    different chain.
+
+    Create printListByIron() and printListBySilicon() in the LinkedList class.
+
+    Update the printReport() method to call the new print methods in
+    LinkedList
+
+Task 7: Implement DataLogger::printReport() (4 hr)
+
+    Now you have the basic structure of the program in place and you are able
+    to run it and see some data.
+
+    Study the instructions about the report format (above) and the expected
+    output files that were delivered as a part of the assignment files.
+
+    Write the implementation of printReport() to match the requirements. This
+    requires that you add some more methods to LinkedList for doing things
+    like calculating averages.
+
+    After you are done with this, you should be able to run your program with
+    small_noerrors.txt and compare the output to
+    small_noerrors.txt.out. Continue implementing the report until the only
+    difference between your program output and small_noerrors.txt.out is the
+    bad sector list at the end of the report.
+
+Task 8: Implement DataLogger::printSectorList() (1 hr)
+
+    Write the implementation of printSectorList() to match the requirements. 
+
+Task 9: Implement DataLogger::containsSector() and removeSector (3 hr)
+
+    Write the implementation of DataLogger::containsSector() and
+    DataLogger::removeSector()
+
+    After this, you should be able to run the program against any data file
+    and the output will be correct.
+
+Task 10: Celebrate!!! (? hr)
+
+    You are done!
+    
+================================================================================
+======================================================== Turnin and Extra Credit
+
+You must use the "turnin" program to turn in your assignment. DO NOT USE D2L
+TO TURN IN YOUR ASSIGNMENT. Assignments turned in using D2L will not be
+graded. For information on using the "turnin" program see
+~mike.noel/classes/all/turnin.txt for information on using the "turnin"
+program.
+
+IMPORTANT: If the program fails to compile, crashes, or hangs then the program
+automatically gets a 0.
+
+IMPORTANT: If the program fails to compile, crashes, or hangs then the program
+automatically gets a 0.
+
+IMPORTANT: If the program fails to compile, crashes, or hangs then the program
+automatically gets a 0.
+
+IMPORTANT: If the program fails to compile, crashes, or hangs then the program
+automatically gets a 0.
+
+IMPORTANT: If the program fails to compile, crashes, or hangs then the program
+automatically gets a 0.
+
+(I mentioned that five times on purpose because I don't want anyone to not
+notice it.)
+
+It is possible to earn 1 point of extra credit for this assignment. In order
+to earn the extra credit point you need to create at least one new USEFUL data
+file for testing your program. A data file that simple repeats the data that
+is already provided is not useful. You need to create a new data file (see the
+existing files to see the format) that contains some specific data condition
+that you want to test for. You must name that file "extra.txt" and you must
+also include a file called "explain.txt" that explains what it is about the
+test data in your file that is special. I will evaluate your extra data and
+explanation and if I think that it represents "useful" data then I will award
+the extra credit point.
+
+The extra credit point will give you 1 extra point on this assignment only. It
+will not allow you to exceed to maximum points for the assignment.
