@@ -25,7 +25,7 @@ void DataLogger::printLine() {
 
 void DataLogger::printReport() {
   printLine();
-  std::cout << "Data values \n";
+  std::cout << "Data values\n";
   printLine();
 
   list.printListBySector();
@@ -33,7 +33,7 @@ void DataLogger::printReport() {
   list.printListBySilicon();
 
   printLine();
-  std::cout << "Averages per sector \n";
+  std::cout << "Averages per sector\n";
   printLine();
 
   list.printSectorAverages();

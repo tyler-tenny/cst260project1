@@ -131,7 +131,7 @@ void LinkedList::addSensorData(SensorData & newData) {
 
 void LinkedList::printListBySector() {
   Node * cur = head_by_sector;
-  std::cout << "Data by Sector \n";
+  std::cout << "Data by Sector\n";
   while (cur) {
     std::cout << "Sector: #" << cur->data.getSector() << " " << cur->data.getIron() << " grams iron, " << cur->data.getSilicon() << " milligrams silicon";
     std::cout << "\n";
